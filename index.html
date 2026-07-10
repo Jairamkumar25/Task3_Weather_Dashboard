@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h1>🌤 Weather Dashboard</h1>
+
+        <p class="subtitle">
+            Get real-time weather updates instantly
+        </p>
+
+    </header>
+
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Weather Section -->
+        <div class="card">
+
+            <h2>🔎 Search Weather</h2>
+
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Enter City Name">
+
+            <button id="weatherBtn">
+                🔍 Get Weather
+            </button>
+
+            <!-- Weather Result -->
+            <div id="weatherResult">
+
+                <p class="message">
+                    Search for a city to view the latest weather.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Image Carousel -->
+        <div class="card">
+
+            <h2>🖼 Nature Gallery</h2>
+
+            <img
+                id="slider"
+                src="images/image1.jpg"
+                alt="Nature Image">
+
+            <div class="buttons">
+
+                <button id="prevBtn">
+                    ⬅ Previous
+                </button>
+
+                <button id="nextBtn">
+                    Next ➡
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            Made by Jairam Kumar | ApexPlanet Internship Task 3
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
